@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 3rem;
+  text-decoration: dashed;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left-side {
+  max-width: 800px;
+}
+
+.post-grid {
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
+  grid-gap: 20px;
+  border-top: 2px rgb(206, 206, 206) solid;
+  width: 100%;
+}
+
+.post {
+  border: 2px rgb(209, 209, 209) solid;
+  border-radius: 0.4rem;
+  /* display: flex; */
+  padding: 40px;
+}
+
+.post-title {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.post-text {
+  text-align: left;
+
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.commentlist {
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.comment {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.commentcontent {
+  font-weight: 300;
+}
+
+.commentbox {
+  text-align: left;
+}
+
+.commentform {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-comment-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px rgb(231, 231, 231) solid;
+  padding: 5px;
+}
+
+.commentpostbutton {
+  border: 1px solid gray;
+  border-radius: 0.4rem;
+  padding: 5px 0;
+  font-size: 0.9rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  background-color: rgb(230, 230, 230);
+  bottom: 0;
+
+}
